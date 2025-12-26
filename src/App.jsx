@@ -3,9 +3,9 @@ import RegisterForm from './RegisterForm';
 
 function App() {
   return (
-    <BrowserRouter>
+    /* Add the basename here to match your GitHub repository name */
+    <BrowserRouter basename="/Display-input-data-">
       <Routes>
-        {/* Set RegisterForm as the root path */}
         <Route path="/" element={<RegisterForm />} />
       </Routes>
     </BrowserRouter>
